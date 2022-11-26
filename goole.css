@@ -1,0 +1,133 @@
+body{
+}
+.header{
+    box-shadow: 2px 0px 2px 2px rgb(240, 240, 240);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.p-2{
+    box-shadow: 2px 0px 2px 2px rgb(240, 240, 240);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.scroll.menu{
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    white-space: nowrap;
+   
+    
+}
+.scroll.menu::-webkit-scrollbar{
+    display: none;
+}
+.scroll{
+    -ms-overflow-style: none;
+    scrollbar-width: auto;
+  
+}
+.scroll a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.scroll a:hover{
+   color: blue;
+    border-bottom: 3px solid blue;
+}
+.flex {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    float: right;
+    border-radius: 10px;
+   margin-top: 0px;
+}
+iframe{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+.col-4{
+   
+    position: relative;
+    margin: 20px;
+   padding: 10px;
+}
+.col-6{
+    border: 2px solid black;
+    position: relative;
+    border-radius: 10px;
+   
+}
+.testimonial-group{
+    display: block;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   position: relative;
+    white-space: nowrap;
+    float: none;
+
+
+}
+.testimonial-group > .row > .col-5 {
+    display: inline-block;
+    margin: 10px;
+}
+.section{
+    display: flex;
+    width: 100%;
+    overflow: auto;
+    
+}
+.col-2{
+    float: right;
+    position: relative;
+    width: 50px;
+    bottom: 35px;
+   
+}
+.col-5{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 0px 2px 2px rgb(240, 240, 240);
+    height: 300px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+}
+.col-12{
+    height: 150px;
+    width: 500px;
+    margin: 10px;
+    background-color: rgb(245, 245, 250);
+    background-image: url();
+    background-size: 100% 100%;
+}
+.col-11{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(245, 245, 250);
+    word-wrap: break-word;
+    font-size: 10px;
+}
+.footer{
+    background-color: rgb(245, 245, 250); 
+    text-align: center;
+}
+.fill{
+    object-fit: fill;
+}
